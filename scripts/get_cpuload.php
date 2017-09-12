@@ -10,6 +10,6 @@ $cpu_15m = array_pop($output_uptime);
 $cpu_05m = array_pop($output_uptime);
 $cpu_01m = array_pop($output_uptime);
 
-echo $cpu_01m.", ".$cpu_05m.", ".$cpu_15m."\n";
+echo "|".$cpu_01m."|".$cpu_05m."|".$cpu_15m."|\n";
 
 ?>
