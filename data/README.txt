@@ -1,0 +1,1 @@
+Use this directory to save logs and the temporary data.
