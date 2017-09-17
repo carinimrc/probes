@@ -4,11 +4,11 @@ import subprocess
 import os
 import json
 
-sys = subprocess.check_output("./scripts/check_sys.sh")
+sys = subprocess.check_output("scripts/check_sys.sh")
 sys = sys.replace('\'', '\"')
 sys = eval(sys)
 
-hdd = subprocess.check_output("./scripts/check_hdd.sh")
+hdd = subprocess.check_output("scripts/check_hdd.sh")
 hdd = hdd.replace('\'', '\"')
 hdd = eval(hdd)
 
