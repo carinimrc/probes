@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-# main script for system status
-
 import subprocess
 import os
 import json
